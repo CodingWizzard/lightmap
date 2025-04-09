@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A light mapper application using Babylon.js for 3D scene visualization">
+    <meta name="keywords" content="babylon.js, light mapping, 3D visualization, WebGL">
+    <meta property="og:title" content="Babylon.js Light Mapper">
+    <meta property="og:description" content="A light mapper application using Babylon.js for 3D scene visualization">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Babylon.js Light Mapper">
+    <meta name="twitter:description" content="A light mapper application using Babylon.js for 3D scene visualization">
+    <title>Babylon.js Light Mapper</title>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://cdn.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/SceneCanvas.js"></script>
+    <script type="text/babel" src="components/LightControls.js"></script>
+    <script type="text/babel" src="components/BakeControls.js"></script>
+    <script type="text/babel" src="utils/sceneManager.js"></script>
+    <script type="text/babel" src="utils/lightMapper.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+
+</html>
